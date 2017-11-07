@@ -1,0 +1,10 @@
+object FMain: TFMain
+  Left = 543
+  Height = 175
+  Top = 210
+  Width = 382
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'BigScreenshot'
+  LCLVersion = '1.8.0.4'
+end
