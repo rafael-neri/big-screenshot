@@ -1,0 +1,9 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,67,50)
+  Resizable = False
+  { PictureBox1 PictureBox
+    MoveScaled(2,2,63,30)
+  }
+}
