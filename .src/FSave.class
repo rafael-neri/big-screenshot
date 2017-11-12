@@ -1,0 +1,19 @@
+' Gambas class file
+
+Public Sub Bt_Save_Click()
+
+    Dialog.Filter = ["*.txt", "Text Files"]
+    Dialog.SaveFile()
+    'If Dialog.SaveFile() Then Return
+    'File.Save(Dialog.Path, TextAreaEdit.Text)
+Catch
+  Message.Info(Error.Text)
+End
+
+Public Sub Bt_Choose_Click()
+
+    If Dialog.SaveFile() Then
+        Input_Path_save.Text = Dialog.Path
+    Endif
+
+End

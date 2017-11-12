@@ -1,9 +1,28 @@
 # Gambas Form File 3.0
 
 { Form Form
-  MoveScaled(0,0,67,50)
+  MoveScaled(0,0,51,22)
   Resizable = False
-  { PictureBox1 PictureBox
-    MoveScaled(2,2,63,30)
+  { Bt_FullScreen Button
+    MoveScaled(2,7,14,11)
+    Mouse = Mouse.Pointing
+    ToolTip = ("FullScreen")
+    Picture = Picture["images/fullscreen.png"]
+  }
+  { Bt_Area Button
+    MoveScaled(18,7,14,11)
+    Mouse = Mouse.Pointing
+    ToolTip = ("Area")
+    Picture = Picture["images/area.png"]
+  }
+  { Bt_Window Button
+    MoveScaled(34,7,14,11)
+    Mouse = Mouse.Pointing
+    ToolTip = ("Window")
+    Picture = Picture["images/window.png"]
+  }
+  { TextLabel1 TextLabel
+    MoveScaled(2,2,24,4)
+    Text = ("Choose a option below:")
   }
 }

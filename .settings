@@ -4,10 +4,14 @@ Count=0
 [DebugWindow]
 Count=0
 
+[Executable]
+Path="big-screenshot.gambas"
+
 [OpenFile]
-Active=1
+Active=2
 File[1]=".src/FMain.form"
-Count=1
+Count=2
+File[2]=".src/FMain.class:29.25"
 
 [Watches]
 Count=0

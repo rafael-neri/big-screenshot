@@ -2,10 +2,12 @@
 # Compiled with Gambas 3.9.1
 Title=Big Screenshot
 Startup=FMain
-Version=0.0.1
+Version=0.0.2
 Component=gb.image
 Component=gb.gtk3
 Component=gb.form
+Description="Screenshot Application"
+Authors="Rafael Neri"
 TabSize=4
 Translate=1
 Language=en_US

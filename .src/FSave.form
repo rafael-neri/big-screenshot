@@ -1,0 +1,29 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,67,50)
+  Resizable = False
+  { Screenshot PictureBox
+    MoveScaled(2,2,63,30)
+    Alignment = Align.Center
+  }
+  { Input_Path_save TextBox
+    MoveScaled(1,37,60,4)
+    NoTabFocus = True
+    Mouse = Mouse.Text
+    Text = ("/tmp/")
+    ReadOnly = True
+  }
+  { Bt_Copy_Clipboard Button
+    MoveScaled(17,44,22,4)
+    Text = ("Copy To Clipboard")
+  }
+  { Bt_Save Button
+    MoveScaled(43,44,22,4)
+    Text = ("Save")
+  }
+  { Bt_Choose Button
+    MoveScaled(62,37,4,4)
+    Picture = Picture["icon:/16/floppy"]
+  }
+}
